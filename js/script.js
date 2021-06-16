@@ -22,23 +22,23 @@ for(var i in studente) {
 
 var studentiArray = [
 
-    studenteUno = {
+     {
         name: "gigi", 
         surname: "rossi",}, 
     
-    studenteDue = {
+     {
         name: "maria", 
         surname: "verdi",},
     
-    studenteTre = {
+    {
         name: "paolo", 
         surname: "bitta"},
     
-    studenteQuattro = {
+     {
         name: "andrea", 
         surname: "pellegrino"},
     
-    studenteCinque = {
+     {
         name: "anselmo", 
         surname: "pedone"}
 ]
@@ -47,9 +47,9 @@ var studentiArray = [
 
 for (var x = 0; x < studentiArray.length; x++) { 
 
-    for (var k in studentiArray[x]) { 
-        console.log(k, studentiArray[x][k]);
-    }
+
+     console.log(studentiArray[x].name, studentiArray[x].surname);
+    
 
 }
 
