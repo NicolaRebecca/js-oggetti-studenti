@@ -65,7 +65,8 @@ var studenti = {
     
     
     
-while (studenti.generalità.length < 1) {
+
+
     
     var studenteNome = prompt('Inserisci il nome dello studente');
     var studenteCognome = prompt('Inserisci il cognome dello studente');
@@ -79,7 +80,7 @@ while (studenti.generalità.length < 1) {
         age: studenteEtà
     });
 
-}
+
 
 console.log(studenti);
 
